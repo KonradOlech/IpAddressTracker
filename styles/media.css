@@ -1,0 +1,23 @@
+@media screen and (max-width: 970px) {
+  html {
+    font-size: 7px;
+  }
+  .app__main__results {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2rem;
+  }
+  .app__main__results__item {
+    text-align: center;
+    padding: 1rem;
+  }
+  .app__main__results__item p {
+    margin: 0.8rem;
+  }
+  .app__main__results__item::after {
+    display: none;
+  }
+}
+/*# sourceMappingURL=media.css.map */

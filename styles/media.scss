@@ -1,0 +1,26 @@
+@media screen and (max-width: 970px) {
+	html {
+		font-size: 7px;
+	}
+	.app {
+		&__main {
+			// padding: 2rem;
+			&__results {
+				flex-direction: column;
+				padding: 2rem;
+
+				&__item {
+					text-align: center;
+					padding: 1rem;
+					p {
+						margin: 0.8rem;
+					}
+
+					&::after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
