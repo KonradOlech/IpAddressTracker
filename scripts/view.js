@@ -1,5 +1,3 @@
-import LEAFLET_API_KEY from './keys.js'
-
 function setResultsMargin(item) {
     const height = item.offsetHeight;
     item.style.marginBottom = `-${height/2}px`
@@ -67,7 +65,7 @@ class Map {
             id: 'mapbox/streets-v11',
             tileSize: 512,
             zoomOffset: -1,
-            accessToken: LEAFLET_API_KEY
+            accessToken: "sk.eyJ1Ijoia29ucmFkb2xlY2giLCJhIjoiY2tvNjNvendqMXo0NTJycGcxOTlkbm8xcCJ9.op23Nt8qCVu2KUNWOfELFg"
         }).addTo(this.map);
         
         this.setLocation(this.location)
